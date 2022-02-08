@@ -4,52 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <title>Oyen Technology</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <a href="#" class="logo">Logo</a>
+      <a href="#" class="logo">Oyen</a>
       <ul>
         <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </header>
     <section>
-      <img src="images/stars.png" alt="" id="stars" />
-      <img src="images/moon.png" alt="" id="moon" />
+      <img src="images/cloud.png" alt="" id="stars" />
+      <img src="images/oyen.png" alt="" id="oyen" />
       <img src="images/mountains_behind.png" alt="" id="mountains_behind" />
       <h2 id="text">Oyen Tech</h2>
       <a href="#sec" class="btn" id="btn">Explore</a>
       <img src="images/mountains_front.png" alt="" id="mountains_front" />
     </section>
     <div class="sec" id="sec">
-      <h2>Oyen Technology</h2>
+      <h2 id="about">About Us</h2>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
         officiis voluptates quas in asperiores vel consectetur magnam, laborum
         provident accusantium quia similique adipisci minus, distinctio porro
         amet, tempora molestiae vitae. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Harum excepturi maiores, quibusdam adipisci
-        dignissimos impedit magnam perspiciatis saepe et officia recusandae
-        neque ipsum quae maxime dolorum voluptas minima soluta eos. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit. Sequi iure praesentium sed
-        debitis voluptatem ducimus minus, alias nam qui nobis eos, ratione in
-        eveniet voluptas, reiciendis exercitationem accusantium commodi. Fuga!
-        <br /><br />
+        adipisicing elit.
+      </p>
+      <br /><br />
+
+      <h2 id="work">Work</h2>
+      <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
         officiis voluptates quas in asperiores vel consectetur magnam, laborum
         provident accusantium quia similique adipisci minus, distinctio porro
         amet, tempora molestiae vitae. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Harum excepturi maiores, quibusdam adipisci
-        dignissimos impedit magnam perspiciatis saepe et officia recusandae
-        neque ipsum quae maxime dolorum voluptas minima soluta eos. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit. Sequi iure praesentium sed
-        debitis voluptatem ducimus minus, alias nam qui nobis eos, ratione in
-        eveniet voluptas, reiciendis exercitationem accusantium commodi. Fuga!
-        <br /><br />
+        adipisicing elit.
+      </p>
+      <br /><br />
+      <h2 id="contact">Contact Us</h2>
+      <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
         officiis voluptates quas in asperiores vel consectetur magnam, laborum
         provident accusantium quia similique adipisci minus, distinctio porro
@@ -66,7 +64,7 @@
 
     <script>
       let stars = document.getElementById("stars");
-      let moon = document.getElementById("moon");
+      let oyen = document.getElementById("oyen");
       let mountains_behind = document.getElementById("mountains_behind");
       let text = document.getElementById("text");
       let btn = document.getElementById("btn");
@@ -75,7 +73,7 @@
       window.addEventListener("scroll", function () {
         let value = window.scrollY;
         stars.style.left = value * 0.25 + "px";
-        moon.style.top = value * 1.05 + "px";
+        oyen.style.top = value * 1.05 + "px";
         mountains_behind.style.top = value * 0.5 + "px";
         mountains_front.style.top = value * 0 + "px";
         text.style.marginRight = value * 4 + "px";
