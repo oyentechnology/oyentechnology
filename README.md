@@ -3,14 +3,11 @@
 - 🌱 I’m currently learning code
 - 💞️ I’m looking to collaborate on finish my project
 - 📫 How to reach me oyentechnology@gmail.com
-<<<<<<< HEAD
+  <<<<<<< HEAD
 - `git log --graph --decorate --oneline --all`
 - `alias graph="git log --graph --decorate --oneline --all"`
 - ogheyyy
-=======
-  
-  yeahh
->>>>>>> 263a627d8788a08da931c042fd3e254deeebe46f
+- yeahh
 
 <!---
 oyentechnology/oyentechnology is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
