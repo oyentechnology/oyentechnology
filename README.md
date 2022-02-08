@@ -3,8 +3,10 @@
 - 🌱 I’m currently learning code
 - 💞️ I’m looking to collaborate on finish my project
 - 📫 How to reach me oyentechnology@gmail.com
-  
+
   yeahh
+
+- `git status`
 
 <!---
 oyentechnology/oyentechnology is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
