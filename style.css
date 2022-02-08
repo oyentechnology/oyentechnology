@@ -27,14 +27,14 @@ header {
 }
 
 header .logo {
-  color: #ffe187;
   font-weight: 700;
   text-decoration: none;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #f5660c;
+  color: #ffe187;
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
 }
 
 header ul {
