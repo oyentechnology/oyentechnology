@@ -5,6 +5,7 @@
 - 📫 How to reach me oyentechnology@gmail.com
 - `git log --graph --decorate --oneline --all`
 - `alias graph="git log --graph --decorate --oneline --all"`
+- ogheyyy
 
 <!---
 oyentechnology/oyentechnology is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
